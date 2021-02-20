@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+/* eslint-disable react/jsx-pascal-case */
+import React from 'react';
+import Deck_part1 from './Deck_part1';
+import Deck_part2 from './Deck_part2';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Deck_part1 /> */}
+      <Deck_part2 />
     </div>
   );
 }

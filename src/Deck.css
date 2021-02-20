@@ -1,0 +1,12 @@
+.Deck {
+    margin-top: 20px;
+    /* position: relative; */
+}
+
+.Deck-remaining {    
+    margin-bottom: 120px;
+}
+
+.Deck-restartBtn {
+    margin-top: 320px;
+}
